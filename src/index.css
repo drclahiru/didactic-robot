@@ -1,6 +1,5 @@
 /* Almost all the styles are copied from the internet and adjusted according to the requirments */
 
-/* Dropdown Button */
 .dropbtn {
   color: white;
   padding: 16px;
@@ -9,7 +8,6 @@
   border-radius: 5px;
 }
 
-/* Dropdown Button color green */
 .dropbtn-color-green {
   background-color: #82b74b;
   color: white;
@@ -21,7 +19,6 @@
   min-width: 80px;
 }
 
-/* Dropdown Button color red */
 .dropbtn-color-red {
   background-color: #d64161;
   color: white;
@@ -33,7 +30,6 @@
   min-width: 80px;
 }
 
-/* Dropdown Button color yellow */
 .dropbtn-color-yellow {
   background-color: #ff7b25;
   color: white;
@@ -45,13 +41,11 @@
   min-width: 80px;
 }
 
-/* The container <div> - needed to position the dropdown content */
 .dropdown {
   position: relative;
   display: inline-block;
 }
 
-/* Dropdown Content (Hidden by Default) */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -61,7 +55,6 @@
   z-index: 1;
 }
 
-/* Links inside the dropdown */
 .dropdown-content a {
   color: black;
   padding: 12px 16px;
@@ -69,17 +62,14 @@
   display: block;
 }
 
-/* Change color of dropdown links on hover */
 .dropdown-content a:hover {
   background-color: #ddd;
 }
 
-/* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
-/* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
   background-color: #3e8e41;
 }
@@ -102,6 +92,7 @@ body {
   border: 1px solid steelblue;
   padding: 30px;
   border-radius: 5px;
+  overflow: inherit;
 }
 
 .header {
