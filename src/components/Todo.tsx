@@ -2,6 +2,12 @@ import Status from "./Status";
 import { FaTimes } from "react-icons/fa";
 import ReactTooltip from "react-tooltip";
 
+/**
+ * Handles the view of todo list
+ * @param {object[]} props.todos The list of todos
+ * @param {Function} props.onClick Mouse click function
+ * @returns The list of todos
+ */
 const Todo = ({
   todos,
   onClick,

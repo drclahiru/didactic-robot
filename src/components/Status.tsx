@@ -1,5 +1,10 @@
 import { useState } from "react";
 
+/**
+ * Handles the status change of todos
+ * @param {string} props.status Exisiting status of the Todo
+ * @returns The status of the Todo
+ */
 const Status = ({ status }: { status: string }) => {
   const [btnStatus, setBtnStatus] = useState(status);
   const [btnColor, setBtnColor] = useState("dropbtn-color-red");

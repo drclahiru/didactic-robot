@@ -3,6 +3,10 @@ import { useState } from "react";
 import { FaAsterisk } from "react-icons/fa";
 import ReactTooltip from "react-tooltip";
 
+/**
+ * Handles adding a new todo
+ * @returns Form to add a new to and the list of todos
+ */
 const Todos = () => {
   const [formTodo, setFormTodo] = useState("");
   const [formDate, setFormDate] = useState("");
